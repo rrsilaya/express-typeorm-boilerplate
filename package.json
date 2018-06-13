@@ -1,0 +1,25 @@
+{
+  "name": "typeorm-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.3.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "reflect-metadata": "^0.1.12",
+    "typeorm": "^0.2.7"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "nodemon": "^1.17.5",
+    "ts-node": "^6.1.1",
+    "typescript": "^2.9.1"
+  },
+  "scripts": {
+    "start": "nodemon",
+    "seed": "mysql -u root -p < ./src/config/schema.sql"
+  }
+}

@@ -1,0 +1,1 @@
+export { default as entityRouter } from './entity1/router';
